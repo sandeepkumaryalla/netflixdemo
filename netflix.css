@@ -1,0 +1,225 @@
+body{
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(44, 50, 54);
+    flex-direction: column;
+}
+.flex-container>div{
+    margin-bottom: 5px;
+}
+.image1{
+    background-image: url("images/main.jpg");
+    height: 650px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    opacity: 80%;;
+}
+.main1{
+    align-self: flex-start;
+    flex-grow: 3;
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    padding-top: 25px;
+    font-family: sans-serif;
+}
+.main2{
+    align-self: right;
+    flex-grow: 7;
+    margin: 20px 20px 0 0 ;
+}
+.btn-lg{
+    float: right;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.bg-danger{
+    float: right;
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 242, 242);
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 80%;;
+   height: 100%;
+}
+.title1{
+    align-self: center;
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+.mail{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.submit{
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 242, 242);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.second{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.sec1{
+   color: white;
+    align-self: center;
+}
+.sec2{
+    background: url("images/tv.png") no-repeat center;
+    background-origin: border-box;
+    background-position: center;
+    height: 57%;
+    width: 38%;
+    background-repeat: no-repeat;
+    align-self: center;
+    object-fit: cover;
+    padding: 10px;
+
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.third1{
+   
+    background: url("images/mobile-0819.jpg") no-repeat center;
+    background-origin: border-box;
+    background-position: center;
+    height: 57%;
+    width: 38%;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+.third2{
+    align-self: center;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fourth1{
+    margin: 0 0 0 5px;
+    align-self: center;
+}
+.fourth2{
+    background: url("images/device-pile-in.png") no-repeat center;
+    background-origin: border-box;
+    background-position: center;
+    height: 57%;
+    width: 38%;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+.fivth{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+}
+.fivth1{
+    background: url("images/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png") no-repeat center;
+    background-origin: border-box;
+    background-position: center;
+    margin: 0 0 0 5px;
+    height: 57%;
+    width: 38%;
+    background-repeat: no-repeat;
+    align-self: center;
+    padding-left: 15px;
+}
+.fivth2{
+    align-self: center;
+}
+.sixth{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+.sixth1{
+    align-self: center;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(202, 169, 169);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    margin: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #463d3d;
+  }
